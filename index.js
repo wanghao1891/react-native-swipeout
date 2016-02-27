@@ -252,7 +252,7 @@ var Swipeout = React.createClass({
     var isLeftVisible = posX > 0;
 
     return (
-      <View style={styleSwipeout}>
+        <View style={{styleSwipeout}, {backgroundColor: 'white'}}>
         <View
           ref="swipeoutContent"
           style={styleContent}
